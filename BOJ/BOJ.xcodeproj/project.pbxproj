@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E846AAC524CD9A7E00BC9F44 /* 단계별.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAC424CD9A7E00BC9F44 /* 단계별.cpp */; };
+		E846AAC524CD9A7E00BC9F44 /* 3009.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAC424CD9A7E00BC9F44 /* 3009.cpp */; };
+		E846AACE24D81F2500BC9F44 /* 2909.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AACD24D81F2500BC9F44 /* 2909.cpp */; };
+		E846AAD024D890D600BC9F44 /* 15595.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AACF24D890D600BC9F44 /* 15595.cpp */; };
+		E846AAD224D963BF00BC9F44 /* 1920.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD124D963BF00BC9F44 /* 1920.cpp */; };
+		E846AAD424D97B2200BC9F44 /* 2751.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD324D97B2200BC9F44 /* 2751.cpp */; };
+		E846AAD624D9805700BC9F44 /* 10989.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD524D9805700BC9F44 /* 10989.cpp */; };
+		E846AAD824D9816E00BC9F44 /* 10815.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD724D9816E00BC9F44 /* 10815.cpp */; };
+		E846AADA24D985F800BC9F44 /* 1181.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD924D985F800BC9F44 /* 1181.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +31,14 @@
 
 /* Begin PBXFileReference section */
 		E846AAC124CD9A7E00BC9F44 /* BOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BOJ; sourceTree = BUILT_PRODUCTS_DIR; };
-		E846AAC424CD9A7E00BC9F44 /* 단계별.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "단계별.cpp"; sourceTree = "<group>"; };
+		E846AAC424CD9A7E00BC9F44 /* 3009.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3009.cpp; sourceTree = "<group>"; };
+		E846AACD24D81F2500BC9F44 /* 2909.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2909.cpp; sourceTree = "<group>"; };
+		E846AACF24D890D600BC9F44 /* 15595.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15595.cpp; sourceTree = "<group>"; };
+		E846AAD124D963BF00BC9F44 /* 1920.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1920.cpp; sourceTree = "<group>"; };
+		E846AAD324D97B2200BC9F44 /* 2751.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2751.cpp; sourceTree = "<group>"; };
+		E846AAD524D9805700BC9F44 /* 10989.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10989.cpp; sourceTree = "<group>"; };
+		E846AAD724D9816E00BC9F44 /* 10815.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10815.cpp; sourceTree = "<group>"; };
+		E846AAD924D985F800BC9F44 /* 1181.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1181.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +71,14 @@
 		E846AAC324CD9A7E00BC9F44 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
-				E846AAC424CD9A7E00BC9F44 /* 단계별.cpp */,
+				E846AAD124D963BF00BC9F44 /* 1920.cpp */,
+				E846AAD324D97B2200BC9F44 /* 2751.cpp */,
+				E846AAD524D9805700BC9F44 /* 10989.cpp */,
+				E846AAC424CD9A7E00BC9F44 /* 3009.cpp */,
+				E846AACD24D81F2500BC9F44 /* 2909.cpp */,
+				E846AACF24D890D600BC9F44 /* 15595.cpp */,
+				E846AAD724D9816E00BC9F44 /* 10815.cpp */,
+				E846AAD924D985F800BC9F44 /* 1181.cpp */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -119,7 +140,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E846AAC524CD9A7E00BC9F44 /* 단계별.cpp in Sources */,
+				E846AAD024D890D600BC9F44 /* 15595.cpp in Sources */,
+				E846AAD624D9805700BC9F44 /* 10989.cpp in Sources */,
+				E846AAD224D963BF00BC9F44 /* 1920.cpp in Sources */,
+				E846AAC524CD9A7E00BC9F44 /* 3009.cpp in Sources */,
+				E846AADA24D985F800BC9F44 /* 1181.cpp in Sources */,
+				E846AAD824D9816E00BC9F44 /* 10815.cpp in Sources */,
+				E846AACE24D81F2500BC9F44 /* 2909.cpp in Sources */,
+				E846AAD424D97B2200BC9F44 /* 2751.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
