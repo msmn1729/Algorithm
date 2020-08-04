@@ -13,6 +13,8 @@
 		E846AAD224D963BF00BC9F44 /* 1920.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD124D963BF00BC9F44 /* 1920.cpp */; };
 		E846AAD424D97B2200BC9F44 /* 2751.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD324D97B2200BC9F44 /* 2751.cpp */; };
 		E846AAD624D9805700BC9F44 /* 10989.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD524D9805700BC9F44 /* 10989.cpp */; };
+		E846AAD824D9816E00BC9F44 /* 10815.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD724D9816E00BC9F44 /* 10815.cpp */; };
+		E846AADA24D985F800BC9F44 /* 1181.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E846AAD924D985F800BC9F44 /* 1181.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		E846AAD124D963BF00BC9F44 /* 1920.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1920.cpp; sourceTree = "<group>"; };
 		E846AAD324D97B2200BC9F44 /* 2751.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2751.cpp; sourceTree = "<group>"; };
 		E846AAD524D9805700BC9F44 /* 10989.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10989.cpp; sourceTree = "<group>"; };
+		E846AAD724D9816E00BC9F44 /* 10815.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10815.cpp; sourceTree = "<group>"; };
+		E846AAD924D985F800BC9F44 /* 1181.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1181.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				E846AAC424CD9A7E00BC9F44 /* 3009.cpp */,
 				E846AACD24D81F2500BC9F44 /* 2909.cpp */,
 				E846AACF24D890D600BC9F44 /* 15595.cpp */,
+				E846AAD724D9816E00BC9F44 /* 10815.cpp */,
+				E846AAD924D985F800BC9F44 /* 1181.cpp */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 				E846AAD624D9805700BC9F44 /* 10989.cpp in Sources */,
 				E846AAD224D963BF00BC9F44 /* 1920.cpp in Sources */,
 				E846AAC524CD9A7E00BC9F44 /* 3009.cpp in Sources */,
+				E846AADA24D985F800BC9F44 /* 1181.cpp in Sources */,
+				E846AAD824D9816E00BC9F44 /* 10815.cpp in Sources */,
 				E846AACE24D81F2500BC9F44 /* 2909.cpp in Sources */,
 				E846AAD424D97B2200BC9F44 /* 2751.cpp in Sources */,
 			);
