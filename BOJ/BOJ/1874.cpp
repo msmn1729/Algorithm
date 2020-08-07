@@ -6,8 +6,12 @@
 //#include <string>
 //#include <map>
 //#include <iomanip>
+//#include <list>
+//#include <stack>
 //
 //using namespace std;
+//
+//stack<int> stk;
 //vector<int> v;
 //
 //int main(int argc, const char * argv[]) {
@@ -15,15 +19,19 @@
 //    cin.tie(NULL);
 //    cout.tie(NULL);
 //    cout << setprecision(16);
-//    
-//    int n, in;
+//
+//    int n, i, index=0;
 //    cin >> n;
-//    while(n--)
+//    int num[n];
+//    for(i=0; i<n; i++)
 //    {
-//        cin >> in;
-//        v.push_back(in);
+//        cin >> num[i];
 //    }
-//    sort(v.begin(), v.end());
-//    v.erase(unique(v.begin(), v.end()), v.end());
-//    for(int i=0; i<v.size(); i++) cout << v[i] << ' ';
+//    for(i=1; i<=n; i++)
+//    {
+//        stk.push(i);
+//        v.push_back('+');
+//
+//    }
 //}
+//
