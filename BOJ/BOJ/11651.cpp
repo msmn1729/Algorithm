@@ -21,12 +21,12 @@
 //    while(n--)
 //    {
 //        cin >> x >> y;
-//        v.push_back(make_pair(x, y));
+//        v.push_back(make_pair(y, x));
 //    }
 //    sort(v.begin(), v.end());
 //    
 //    for(auto i=v.begin(); i!=v.end(); i++)
 //    {
-//        cout << i->first << ' ' << i->second << '\n';
+//        cout << i->second << ' ' << i->first << '\n';
 //    }
 //}
