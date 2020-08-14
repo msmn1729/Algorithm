@@ -1,4 +1,4 @@
-# Algorithm :smile:
+# Algorithm
 ## Problem Sloving
 사용언어 : C++
 BOJ
