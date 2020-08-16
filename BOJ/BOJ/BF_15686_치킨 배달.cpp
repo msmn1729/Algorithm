@@ -51,22 +51,50 @@
 //            else if(in == 1) home_pos.push_back({i, j});
 //        }
 //    }
-//    DFS(0, 0);
-//    for(int k=0; k<v.size(); k++)
+////    DFS(0, 0);
+////    for(int k=0; k<v.size(); k++)
+////    {
+////        sum = 0;
+////        for(i=0; i<home_pos.size(); i++)
+////        {
+////            min_dif = 987654321;
+////            for(j=0; j<m; j++)
+////            {
+////                dif = abs(home_pos[i].first - v[k][j].first)
+////                + abs(home_pos[i].second - v[k][j].second);
+////                min_dif = min(min_dif, dif);
+////            }
+////            sum += min_dif; //n번 집에서 가장 가까운 치킨집까지의 거리를 더해줌
+////        }
+////        min_sum = min(sum, min_sum);
+////    }
+//    vector<int> patten(chicken_pos.size(), 1);
+//    for(i=0; i<m; i++)
 //    {
+//        patten[i] = 0;
+//    }
+//    do{
 //        sum = 0;
 //        for(i=0; i<home_pos.size(); i++)
 //        {
 //            min_dif = 987654321;
-//            for(j=0; j<m; j++)
+//            for(j=0; j<chicken_pos.size(); j++)
 //            {
-//                dif = abs(home_pos[i].first - v[k][j].first)
-//                + abs(home_pos[i].second - v[k][j].second);
+//
+//                if(patten[j]) continue;
+////                cout << chicken_pos[j].first << ',' << chicken_pos[j].second << '\n';
+//                dif = abs(home_pos[i].first-chicken_pos[j].first)
+//                + abs(home_pos[i].second-chicken_pos[j].second);
 //                min_dif = min(min_dif, dif);
 //            }
+////            cout << '\n';
 //            sum += min_dif; //n번 집에서 가장 가까운 치킨집까지의 거리를 더해줌
 //        }
 //        min_sum = min(sum, min_sum);
+//
 //    }
+//    while(next_permutation(patten.begin(), patten.end()));
+////    while(next_permutation(chicken_pos.begin(), chicken_pos.end()));
+//
 //    cout << min_sum;
 //}

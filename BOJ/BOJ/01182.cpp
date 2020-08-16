@@ -38,6 +38,17 @@
 //    }
 //}
 //
+//void func(int cur, int tot)
+//{
+//    if(cur == n)
+//    {
+//        if(tot == s) ans++;
+//        return;
+//    }
+//    func(cur+1, tot+0);
+//    func(cur+1, tot+num[cur]);
+//}
+//
 //int main() {
 //    ios_base::sync_with_stdio(false);
 //    cin.tie(NULL);
@@ -50,6 +61,8 @@
 //    {
 //        cin >> num[i];
 //    }
-//    DFS(0, 0);
+////    DFS(0, 0);
+//    func(0, 0);
+//    if(s==0) ans--;
 //    cout << ans;
 //}
