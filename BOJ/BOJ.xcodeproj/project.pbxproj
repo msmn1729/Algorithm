@@ -40,6 +40,7 @@
 		E89F294A24E9A74B0000EDAB /* 09663.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F292B24E9A74A0000EDAB /* 09663.cpp */; };
 		E89F295024E9A93D0000EDAB /* recursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F294F24E9A93D0000EDAB /* recursion.cpp */; };
 		E89F295224E9AEB80000EDAB /* ETC_01629_곱셈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F295124E9AEB80000EDAB /* ETC_01629_곱셈.cpp */; };
+		E89F295424EA62AB0000EDAB /* BT_02661_좋은수열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F295324EA62AB0000EDAB /* BT_02661_좋은수열.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +90,7 @@
 		E89F292B24E9A74A0000EDAB /* 09663.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 09663.cpp; sourceTree = "<group>"; };
 		E89F294F24E9A93D0000EDAB /* recursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursion.cpp; sourceTree = "<group>"; };
 		E89F295124E9AEB80000EDAB /* ETC_01629_곱셈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_01629_곱셈.cpp"; sourceTree = "<group>"; };
+		E89F295324EA62AB0000EDAB /* BT_02661_좋은수열.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_02661_좋은수열.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		E89F294D24E9A8070000EDAB /* BackTracking(BK) */ = {
 			isa = PBXGroup;
 			children = (
+				E89F295324EA62AB0000EDAB /* BT_02661_좋은수열.cpp */,
 			);
 			path = "BackTracking(BK)";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				E89F294724E9A74B0000EDAB /* 01158.cpp in Sources */,
 				E89F294624E9A74B0000EDAB /* 09012.cpp in Sources */,
 				E89F294424E9A74B0000EDAB /* 02178.cpp in Sources */,
+				E89F295424EA62AB0000EDAB /* BT_02661_좋은수열.cpp in Sources */,
 				E89F294224E9A74B0000EDAB /* 10815.cpp in Sources */,
 				E89F293C24E9A74B0000EDAB /* 01926.cpp in Sources */,
 				E89F292F24E9A74A0000EDAB /* 09095.cpp in Sources */,

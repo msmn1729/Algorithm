@@ -12,7 +12,7 @@
 ////치킨 배달
 ////https://www.acmicpc.net/problem/15686
 ////시간초과 다섯시간 소요 결국해냄!
-////순열
+////순열, 백트래킹으로 두가지 해결
 //
 //using namespace std;
 //int n, m, x[100];
