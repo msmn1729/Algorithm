@@ -45,6 +45,7 @@
 		E89F296E24EC1EED0000EDAB /* ETC_11004_K번째 수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F296D24EC1EED0000EDAB /* ETC_11004_K번째 수.cpp */; };
 		E89F297224EC47360000EDAB /* ETC_02355_시그마.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297124EC47360000EDAB /* ETC_02355_시그마.cpp */; };
 		E89F297424EC4B160000EDAB /* ETC_03035_스캐너.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297324EC4B160000EDAB /* ETC_03035_스캐너.cpp */; };
+		E89F297824ECEE0C0000EDAB /* ETC_02485_가로수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297724ECEE0C0000EDAB /* ETC_02485_가로수.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +100,7 @@
 		E89F296D24EC1EED0000EDAB /* ETC_11004_K번째 수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_11004_K번째 수.cpp"; sourceTree = "<group>"; };
 		E89F297124EC47360000EDAB /* ETC_02355_시그마.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_02355_시그마.cpp"; sourceTree = "<group>"; };
 		E89F297324EC4B160000EDAB /* ETC_03035_스캐너.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_03035_스캐너.cpp"; sourceTree = "<group>"; };
+		E89F297724ECEE0C0000EDAB /* ETC_02485_가로수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_02485_가로수.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				E89F294F24E9A93D0000EDAB /* recursion.cpp */,
+				E89F297724ECEE0C0000EDAB /* ETC_02485_가로수.cpp */,
 				E89F295124E9AEB80000EDAB /* ETC_01629_곱셈.cpp */,
 				E89F296D24EC1EED0000EDAB /* ETC_11004_K번째 수.cpp */,
 				E89F297124EC47360000EDAB /* ETC_02355_시그마.cpp */,
@@ -289,6 +292,7 @@
 				E89F294224E9A74B0000EDAB /* 10815.cpp in Sources */,
 				E89F293C24E9A74B0000EDAB /* 01926.cpp in Sources */,
 				E89F292F24E9A74A0000EDAB /* 09095.cpp in Sources */,
+				E89F297824ECEE0C0000EDAB /* ETC_02485_가로수.cpp in Sources */,
 				E89F294524E9A74B0000EDAB /* 14889.cpp in Sources */,
 				E89F293824E9A74B0000EDAB /* 15595.cpp in Sources */,
 				E89F293A24E9A74B0000EDAB /* 01874.cpp in Sources */,
