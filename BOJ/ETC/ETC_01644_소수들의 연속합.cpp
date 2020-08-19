@@ -16,6 +16,7 @@ using namespace std;
 //https://www.acmicpc.net/problem/1644 소수의 연속합 골드3
 //소수와 투 포인터
 //하지만 소수처리만 해줘도 통과됨
+//에라토스테네스의 체를 활용시 26배 빨라짐
 
 int main()
 {
@@ -23,27 +24,42 @@ int main()
     cin.tie(0);
     cout.tie(0);
     
-    int n, i, j, flag, ans=0;
-    vector<int> v;
+    int n, i, j, ans=0;
     
     cin >> n;
-
+    
+    vector<int> sieve(n+1), v;
+//    fill(v.begin(), v.begin()+n, 0);
+    
     for(i=2; i<=n; i++)
     {
-        flag = 1;
-        for(j=2; j*j<=i; j++)
-        {
-            if(i % j == 0)
-            {
-                flag = 0;
-                break;
-            }
-        }
-        if(flag) //소수인 경우
-        {
-            v.push_back(i);
-        }
+        if(sieve[i]) continue;
+        v.push_back(i);
+        if(i*i > n) continue;
+        for(j=i+i; j<=n; j+=i) sieve[j] = 1;
     }
+    
+//    for(i=2; i<=n; i++)
+//        if(sieve[i] == 0)
+//            v.push_back(i);
+    
+
+//    for(i=2; i<=n; i++)
+//    {
+//        flag = 1;
+//        for(j=2; j*j<=i; j++)
+//        {
+//            if(i % j == 0)
+//            {
+//                flag = 0;
+//                break;
+//            }
+//        }
+//        if(flag) //소수인 경우
+//        {
+//            v.push_back(i);
+//        }
+//    }
     
     //내가 푼 방법
 //    for(i=(int)v.size()-1; i>=0; i--)
