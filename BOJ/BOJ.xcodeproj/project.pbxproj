@@ -48,6 +48,7 @@
 		E89F297824ECEE0C0000EDAB /* ETC_02485_가로수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297724ECEE0C0000EDAB /* ETC_02485_가로수.cpp */; };
 		E89F297A24ED07870000EDAB /* ETC_01644_소수들의 연속합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297924ED07870000EDAB /* ETC_01644_소수들의 연속합.cpp */; };
 		E89F297C24ED2BF80000EDAB /* ETC_02003_수들의 합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297B24ED2BF80000EDAB /* ETC_02003_수들의 합.cpp */; };
+		E89F297E24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297D24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +106,7 @@
 		E89F297724ECEE0C0000EDAB /* ETC_02485_가로수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_02485_가로수.cpp"; sourceTree = "<group>"; };
 		E89F297924ED07870000EDAB /* ETC_01644_소수들의 연속합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_01644_소수들의 연속합.cpp"; sourceTree = "<group>"; };
 		E89F297B24ED2BF80000EDAB /* ETC_02003_수들의 합.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_02003_수들의 합.cpp"; sourceTree = "<group>"; };
+		E89F297D24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_01260_DFS와 BFS.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		E89F290B24E9A6F50000EDAB /* BreadthFirstSearch(BFS) */ = {
 			isa = PBXGroup;
 			children = (
+				E89F297D24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp */,
 			);
 			path = "BreadthFirstSearch(BFS)";
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				E89F297824ECEE0C0000EDAB /* ETC_02485_가로수.cpp in Sources */,
 				E89F294524E9A74B0000EDAB /* 14889.cpp in Sources */,
 				E89F293824E9A74B0000EDAB /* 15595.cpp in Sources */,
+				E89F297E24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp in Sources */,
 				E89F293A24E9A74B0000EDAB /* 01874.cpp in Sources */,
 				E89F292D24E9A74A0000EDAB /* 06603.cpp in Sources */,
 				E89F295224E9AEB80000EDAB /* ETC_01629_곱셈.cpp in Sources */,
