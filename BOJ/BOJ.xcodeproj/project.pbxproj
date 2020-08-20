@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E81D83DB24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D83DA24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp */; };
+		E81D83DE24EF2A5B004081B2 /* S_15683_감시.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D83DD24EF2A5B004081B2 /* S_15683_감시.cpp */; };
 		E89F292C24E9A74A0000EDAB /* 02909.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F290D24E9A74A0000EDAB /* 02909.cpp */; };
 		E89F292D24E9A74A0000EDAB /* 06603.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F290E24E9A74A0000EDAB /* 06603.cpp */; };
 		E89F292E24E9A74A0000EDAB /* 03009.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F290F24E9A74A0000EDAB /* 03009.cpp */; };
@@ -69,6 +70,7 @@
 /* Begin PBXFileReference section */
 		E81D83D924EED4A7004081B2 /* BOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BOJ; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81D83DA24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_01697_숨바꼭질.cpp"; sourceTree = "<group>"; };
+		E81D83DD24EF2A5B004081B2 /* S_15683_감시.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "S_15683_감시.cpp"; sourceTree = "<group>"; };
 		E89F290D24E9A74A0000EDAB /* 02909.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 02909.cpp; sourceTree = "<group>"; };
 		E89F290E24E9A74A0000EDAB /* 06603.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 06603.cpp; sourceTree = "<group>"; };
 		E89F290F24E9A74A0000EDAB /* 03009.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 03009.cpp; sourceTree = "<group>"; };
@@ -126,9 +128,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E81D83DC24EF2A40004081B2 /* Simulation(S) */ = {
+			isa = PBXGroup;
+			children = (
+				E81D83DD24EF2A5B004081B2 /* S_15683_감시.cpp */,
+			);
+			path = "Simulation(S)";
+			sourceTree = "<group>";
+		};
 		E846AAB824CD9A7E00BC9F44 = {
 			isa = PBXGroup;
 			children = (
+				E81D83DC24EF2A40004081B2 /* Simulation(S) */,
 				E89F295524EA947F0000EDAB /* BackTracking(BT) */,
 				E89F294C24E9A8070000EDAB /* DynamicProgramming(DP) */,
 				E89F294B24E9A75C0000EDAB /* BinarySearch(BS) */,
@@ -309,6 +320,7 @@
 				E89F295724EA947F0000EDAB /* BT_02661_좋은수열.cpp in Sources */,
 				E89F294224E9A74B0000EDAB /* 10815.cpp in Sources */,
 				E89F293C24E9A74B0000EDAB /* 01926.cpp in Sources */,
+				E81D83DE24EF2A5B004081B2 /* S_15683_감시.cpp in Sources */,
 				E89F292F24E9A74A0000EDAB /* 09095.cpp in Sources */,
 				E89F297824ECEE0C0000EDAB /* ETC_02485_가로수.cpp in Sources */,
 				E89F294524E9A74B0000EDAB /* 14889.cpp in Sources */,
