@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E81D83DB24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D83DA24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp */; };
 		E89F292C24E9A74A0000EDAB /* 02909.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F290D24E9A74A0000EDAB /* 02909.cpp */; };
 		E89F292D24E9A74A0000EDAB /* 06603.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F290E24E9A74A0000EDAB /* 06603.cpp */; };
 		E89F292E24E9A74A0000EDAB /* 03009.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F290F24E9A74A0000EDAB /* 03009.cpp */; };
@@ -66,7 +67,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E846AAC124CD9A7E00BC9F44 /* BOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = BOJ; path = /Users/parkgeonyeol/Documents/Algorithm/BOJ/build/Debug/BOJ; sourceTree = "<absolute>"; };
+		E81D83D924EED4A7004081B2 /* BOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BOJ; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81D83DA24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_01697_숨바꼭질.cpp"; sourceTree = "<group>"; };
 		E89F290D24E9A74A0000EDAB /* 02909.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 02909.cpp; sourceTree = "<group>"; };
 		E89F290E24E9A74A0000EDAB /* 06603.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 06603.cpp; sourceTree = "<group>"; };
 		E89F290F24E9A74A0000EDAB /* 03009.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 03009.cpp; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				E89F290A24E9A6F50000EDAB /* DepthFirstSearch(DFS) */,
 				E89F294E24E9A8DA0000EDAB /* ETC */,
 				E89F290C24E9A74A0000EDAB /* BOJ */,
+				E81D83D924EED4A7004081B2 /* BOJ */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				E89F297D24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp */,
+				E81D83DA24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp */,
 				E89F298324EDAA900000EDAB /* BFS_02178_미로 탐색.cpp */,
 				E89F298124EDA84E0000EDAB /* BFS_04179_불!.cpp */,
 			);
@@ -255,7 +259,7 @@
 			);
 			name = BOJ;
 			productName = BOJ;
-			productReference = E846AAC124CD9A7E00BC9F44 /* BOJ */;
+			productReference = E81D83D924EED4A7004081B2 /* BOJ */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -328,6 +332,7 @@
 				E89F293D24E9A74B0000EDAB /* 07576.cpp in Sources */,
 				E89F293324E9A74A0000EDAB /* 12101.cpp in Sources */,
 				E89F295024E9A93D0000EDAB /* recursion.cpp in Sources */,
+				E81D83DB24EEEAFE004081B2 /* BFS_01697_숨바꼭질.cpp in Sources */,
 				E89F295924EA94CC0000EDAB /* BT_02580_스도쿠.cpp in Sources */,
 				E89F293E24E9A74B0000EDAB /* 10989.cpp in Sources */,
 				E89F297424EC4B160000EDAB /* ETC_03035_스캐너.cpp in Sources */,
