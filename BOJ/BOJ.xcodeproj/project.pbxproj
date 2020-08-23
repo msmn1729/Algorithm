@@ -75,6 +75,7 @@
 		E8DB38C124F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38C024F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp */; };
 		E8DB38C324F2CCF200A27AC6 /* ETC_16172_나는 친구가 적다 (Large).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38C224F2CCF200A27AC6 /* ETC_16172_나는 친구가 적다 (Large).cpp */; };
 		E8DB38C524F2D55300A27AC6 /* ETC_07510_고급 수학.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38C424F2D55300A27AC6 /* ETC_07510_고급 수학.cpp */; };
+		E8DB38C724F2DAF700A27AC6 /* BT_15649_N과 M (1).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38C624F2DAF700A27AC6 /* BT_15649_N과 M (1).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -159,6 +160,7 @@
 		E8DB38C024F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_16171_나는 친구가 적다 (Small).cpp"; sourceTree = "<group>"; };
 		E8DB38C224F2CCF200A27AC6 /* ETC_16172_나는 친구가 적다 (Large).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_16172_나는 친구가 적다 (Large).cpp"; sourceTree = "<group>"; };
 		E8DB38C424F2D55300A27AC6 /* ETC_07510_고급 수학.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_07510_고급 수학.cpp"; sourceTree = "<group>"; };
+		E8DB38C624F2DAF700A27AC6 /* BT_15649_N과 M (1).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_15649_N과 M (1).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +317,7 @@
 				E89F295624EA947F0000EDAB /* BT_02661_좋은수열.cpp */,
 				E89F295824EA94CC0000EDAB /* BT_02580_스도쿠.cpp */,
 				E81D83E324F077A1004081B2 /* BT_15684_사다리 조작.cpp */,
+				E8DB38C624F2DAF700A27AC6 /* BT_15649_N과 M (1).cpp */,
 			);
 			path = "BackTracking(BT)";
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				E89F294624E9A74B0000EDAB /* 09012.cpp in Sources */,
 				E89F295724EA947F0000EDAB /* BT_02661_좋은수열.cpp in Sources */,
 				E89F294224E9A74B0000EDAB /* 10815.cpp in Sources */,
+				E8DB38C724F2DAF700A27AC6 /* BT_15649_N과 M (1).cpp in Sources */,
 				E89F293C24E9A74B0000EDAB /* 01926.cpp in Sources */,
 				E81D83DE24EF2A5B004081B2 /* S_15683_감시.cpp in Sources */,
 				E81D840824F2BDC1004081B2 /* ETC_14581_팬들에게 둘러싸인 홍준.cpp in Sources */,
