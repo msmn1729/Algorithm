@@ -72,6 +72,7 @@
 		E89F298224EDA84E0000EDAB /* BFS_04179_불!.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F298124EDA84E0000EDAB /* BFS_04179_불!.cpp */; };
 		E89F298424EDAA900000EDAB /* BFS_02178_미로 탐색.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F298324EDAA900000EDAB /* BFS_02178_미로 탐색.cpp */; };
 		E89F298624EDADAD0000EDAB /* BF_15686_치킨 배달.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F298524EDADAD0000EDAB /* BF_15686_치킨 배달.cpp */; };
+		E8DB38C124F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38C024F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,6 +154,7 @@
 		E89F298124EDA84E0000EDAB /* BFS_04179_불!.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_04179_불!.cpp"; sourceTree = "<group>"; };
 		E89F298324EDAA900000EDAB /* BFS_02178_미로 탐색.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_02178_미로 탐색.cpp"; sourceTree = "<group>"; };
 		E89F298524EDADAD0000EDAB /* BF_15686_치킨 배달.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "BF_15686_치킨 배달.cpp"; path = "BruteForce(BF)/BF_15686_치킨 배달.cpp"; sourceTree = SOURCE_ROOT; };
+		E8DB38C024F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_16171_나는 친구가 적다 (Small).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +298,7 @@
 				E81D840524F2BC85004081B2 /* ETC_02966_찍기.cpp */,
 				E81D840724F2BDC1004081B2 /* ETC_14581_팬들에게 둘러싸인 홍준.cpp */,
 				E81D840924F2C13E004081B2 /* ETC_14910_오르막.cpp */,
+				E8DB38C024F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp */,
 			);
 			path = ETC;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				E89F298224EDA84E0000EDAB /* BFS_04179_불!.cpp in Sources */,
 				E89F293824E9A74B0000EDAB /* 15595.cpp in Sources */,
 				E89F298624EDADAD0000EDAB /* BF_15686_치킨 배달.cpp in Sources */,
+				E8DB38C124F2CC3800A27AC6 /* ETC_16171_나는 친구가 적다 (Small).cpp in Sources */,
 				E81D83FC24F2A297004081B2 /* ETC_10807_개수 세기.cpp in Sources */,
 				E81D83EC24F29724004081B2 /* ETC_02592_대표값.cpp in Sources */,
 				E89F297E24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp in Sources */,
