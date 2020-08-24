@@ -80,6 +80,7 @@
 		E8DB38CB24F2E17700A27AC6 /* BT_15651_N과 M (3).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38CA24F2E17700A27AC6 /* BT_15651_N과 M (3).cpp */; };
 		E8DB38CD24F2E1F900A27AC6 /* BT_15652_N과 M (4).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38CC24F2E1F900A27AC6 /* BT_15652_N과 M (4).cpp */; };
 		E8DB38CF24F2E64400A27AC6 /* BT_15654_N과 M (5).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38CE24F2E64400A27AC6 /* BT_15654_N과 M (5).cpp */; };
+		E8DB38D124F3A21100A27AC6 /* BT_15655_N과 M (6).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38D024F3A21100A27AC6 /* BT_15655_N과 M (6).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -169,6 +170,7 @@
 		E8DB38CA24F2E17700A27AC6 /* BT_15651_N과 M (3).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_15651_N과 M (3).cpp"; sourceTree = "<group>"; };
 		E8DB38CC24F2E1F900A27AC6 /* BT_15652_N과 M (4).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_15652_N과 M (4).cpp"; sourceTree = "<group>"; };
 		E8DB38CE24F2E64400A27AC6 /* BT_15654_N과 M (5).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_15654_N과 M (5).cpp"; sourceTree = "<group>"; };
+		E8DB38D024F3A21100A27AC6 /* BT_15655_N과 M (6).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_15655_N과 M (6).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,6 +332,7 @@
 				E8DB38CA24F2E17700A27AC6 /* BT_15651_N과 M (3).cpp */,
 				E8DB38CC24F2E1F900A27AC6 /* BT_15652_N과 M (4).cpp */,
 				E8DB38CE24F2E64400A27AC6 /* BT_15654_N과 M (5).cpp */,
+				E8DB38D024F3A21100A27AC6 /* BT_15655_N과 M (6).cpp */,
 			);
 			path = "BackTracking(BT)";
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				E89F294324E9A74B0000EDAB /* 01920.cpp in Sources */,
 				E89F294924E9A74B0000EDAB /* 01406.cpp in Sources */,
 				E8DB38C924F2DE2100A27AC6 /* BT_15650_N과 M (2).cpp in Sources */,
+				E8DB38D124F3A21100A27AC6 /* BT_15655_N과 M (6).cpp in Sources */,
 				E89F293524E9A74B0000EDAB /* 05585.cpp in Sources */,
 				E81D840A24F2C13E004081B2 /* ETC_14910_오르막.cpp in Sources */,
 				E89F293F24E9A74B0000EDAB /* 12813.cpp in Sources */,
