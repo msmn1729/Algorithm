@@ -21,8 +21,10 @@ using namespace std;
 vector<int> v;
 bool primeCheck(long long n)
 {
-    for(int i=0; i<v.size() && (long long)v[i] * v[i] <= n; i++)
+    int i;
+    for(i=0; i < v.size(); i++)
     {
+        if((long long)v[i]*v[i] > n) return true;
         if(n%v[i] == 0) return false;
     }
     return true;
