@@ -97,6 +97,7 @@
 		E8DB38EE24F7C50200A27AC6 /* DFS_02606_바이러스.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38ED24F7C50200A27AC6 /* DFS_02606_바이러스.cpp */; };
 		E8DB38F024F7C8C500A27AC6 /* DP_01003_피보나치 함수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38EF24F7C8C500A27AC6 /* DP_01003_피보나치 함수.cpp */; };
 		E8DB38F424F94E3F00A27AC6 /* ETC_01952_달팽이2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38F324F94E3F00A27AC6 /* ETC_01952_달팽이2.cpp */; };
+		E8DB38FA24FA799600A27AC6 /* S_02636_치즈.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38F924FA799600A27AC6 /* S_02636_치즈.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -203,6 +204,7 @@
 		E8DB38ED24F7C50200A27AC6 /* DFS_02606_바이러스.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DFS_02606_바이러스.cpp"; sourceTree = "<group>"; };
 		E8DB38EF24F7C8C500A27AC6 /* DP_01003_피보나치 함수.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_01003_피보나치 함수.cpp"; sourceTree = "<group>"; };
 		E8DB38F324F94E3F00A27AC6 /* ETC_01952_달팽이2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_01952_달팽이2.cpp"; sourceTree = "<group>"; };
+		E8DB38F924FA799600A27AC6 /* S_02636_치즈.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "S_02636_치즈.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				E81D83DD24EF2A5B004081B2 /* S_15683_감시.cpp */,
+				E8DB38F924FA799600A27AC6 /* S_02636_치즈.cpp */,
 			);
 			path = "Simulation(S)";
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				E8DB38D324F3A38C00A27AC6 /* BT_15656_N과 M (7).cpp in Sources */,
 				E89F297424EC4B160000EDAB /* ETC_03035_스캐너.cpp in Sources */,
 				E89F292E24E9A74A0000EDAB /* 03009.cpp in Sources */,
+				E8DB38FA24FA799600A27AC6 /* S_02636_치즈.cpp in Sources */,
 				E81D840424F2B3DF004081B2 /* ETC_02484_주사위 네개.cpp in Sources */,
 				E89F298424EDAA900000EDAB /* BFS_02178_미로 탐색.cpp in Sources */,
 				E89F294824E9A74B0000EDAB /* 10876.cpp in Sources */,
