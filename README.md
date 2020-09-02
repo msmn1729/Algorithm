@@ -6,11 +6,13 @@
 ![imge](https://img.shields.io/badge/Language-c++-yellow)
 ![imge](https://img.shields.io/badge/Tools-Xcode-red)
 
- C++로 알고리즘 문제 풀기! :dart:
-
+ C++로 알고리즘 문제 풀기! :dart:  
+   
+     
+     
 ## Classification:pencil2:
 
-### Baekjoon Online Judge(BOJ)
+##### Baekjoon Online Judge(BOJ)
 - [Dynamic Programming(DP)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DynamicProgramming(DP))
 - [Breadth First Search(BFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BreadthFirstSearch(BFS))
 - [Depth First Search(DFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DepthFirstSearch(DFS))
