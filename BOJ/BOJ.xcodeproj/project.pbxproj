@@ -12,7 +12,7 @@
 		E81D83E424F077A1004081B2 /* BT_15684_사다리 조작.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E81D83E324F077A1004081B2 /* BT_15684_사다리 조작.cpp */; };
 		E859B6A824FE6A4B00895C7D /* DFS_09466_텀 프로젝트.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6A724FE6A4B00895C7D /* DFS_09466_텀 프로젝트.cpp */; };
 		E859B6F224FFAB8200895C7D /* ETC_02909_캔디 구매.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6B224FFAB8100895C7D /* ETC_02909_캔디 구매.cpp */; };
-		E859B6F324FFAB8200895C7D /* 06603.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6B324FFAB8100895C7D /* 06603.cpp */; };
+		E859B6F324FFAB8200895C7D /* ETC_06603_로또.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6B324FFAB8100895C7D /* ETC_06603_로또.cpp */; };
 		E859B6F424FFAB8200895C7D /* 03009.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6B424FFAB8100895C7D /* 03009.cpp */; };
 		E859B6F524FFAB8200895C7D /* ETC_02493_탑.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6B524FFAB8100895C7D /* ETC_02493_탑.cpp */; };
 		E859B6F624FFAB8200895C7D /* ETC_16172_나는 친구가 적다 (Large).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6B624FFAB8100895C7D /* ETC_16172_나는 친구가 적다 (Large).cpp */; };
@@ -128,7 +128,7 @@
 		E859B6A724FE6A4B00895C7D /* DFS_09466_텀 프로젝트.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DFS_09466_텀 프로젝트.cpp"; sourceTree = "<group>"; };
 		E859B6B024FFAA7600895C7D /* BOJ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = BOJ; path = /Users/parkgeonyeol/Documents/Algorithm/BOJ/build/Debug/BOJ; sourceTree = "<absolute>"; };
 		E859B6B224FFAB8100895C7D /* ETC_02909_캔디 구매.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_02909_캔디 구매.cpp"; sourceTree = "<group>"; };
-		E859B6B324FFAB8100895C7D /* 06603.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 06603.cpp; sourceTree = "<group>"; };
+		E859B6B324FFAB8100895C7D /* ETC_06603_로또.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_06603_로또.cpp"; sourceTree = "<group>"; };
 		E859B6B424FFAB8100895C7D /* 03009.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 03009.cpp; sourceTree = "<group>"; };
 		E859B6B524FFAB8100895C7D /* ETC_02493_탑.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_02493_탑.cpp"; sourceTree = "<group>"; };
 		E859B6B624FFAB8100895C7D /* ETC_16172_나는 친구가 적다 (Large).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_16172_나는 친구가 적다 (Large).cpp"; sourceTree = "<group>"; };
@@ -265,7 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				E859B6B224FFAB8100895C7D /* ETC_02909_캔디 구매.cpp */,
-				E859B6B324FFAB8100895C7D /* 06603.cpp */,
+				E859B6B324FFAB8100895C7D /* ETC_06603_로또.cpp */,
 				E859B6B424FFAB8100895C7D /* 03009.cpp */,
 				E859B6B524FFAB8100895C7D /* ETC_02493_탑.cpp */,
 				E859B6B624FFAB8100895C7D /* ETC_16172_나는 친구가 적다 (Large).cpp */,
@@ -506,7 +506,7 @@
 				E8DB38D924F51D3300A27AC6 /* BT_15664_N과 M (10).cpp in Sources */,
 				E859B70E24FFAB8200895C7D /* 15988.cpp in Sources */,
 				E89F297E24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp in Sources */,
-				E859B6F324FFAB8200895C7D /* 06603.cpp in Sources */,
+				E859B6F324FFAB8200895C7D /* ETC_06603_로또.cpp in Sources */,
 				E8DB38EE24F7C50200A27AC6 /* DFS_02606_바이러스.cpp in Sources */,
 				E859B71124FFAB8200895C7D /* ETC_02445_별 찍기 - 8.cpp in Sources */,
 				E859B70324FFAB8200895C7D /* ETC_02444_별 찍기 - 7.cpp in Sources */,
