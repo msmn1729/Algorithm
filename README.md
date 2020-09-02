@@ -6,7 +6,8 @@
 ![imge](https://img.shields.io/badge/Language-c++-yellow)
 ![imge](https://img.shields.io/badge/Tools-Xcode-red)
 
- C++로 알고리즘 문제 풀기!
+- 알고리즘 종류별로 정리를 해두었습니다.
+- 아래 링크를 누르면 코드를 볼 수 있습니다.😄
  
  
 # Classification:pencil2:
