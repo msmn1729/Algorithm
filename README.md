@@ -8,7 +8,7 @@
 
  C++로 알고리즘 문제 풀기! :dart:
 
-## 문제 분류
+## Classification:pencil2:
 
 - [Dynamic Programming(DP)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DynamicProgramming(DP))
 - [Breadth First Search(BFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BreadthFirstSearch(BFS))
