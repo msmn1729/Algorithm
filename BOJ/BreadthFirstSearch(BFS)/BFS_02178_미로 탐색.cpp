@@ -40,9 +40,9 @@ int main()
             int nx = cur.first + dx[div];
             int ny = cur.second + dy[div];
             if(nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
-            if(dist[nx][ny] || board[nx][ny] == '0') continue; //방문을 했던 곳이거나 막힌길이면 패스
+            if(dist[nx][ny] || board[nx][ny] == '0') continue; //방문을 했던 곳이거나 막힌길은 패스
             dist[nx][ny] = dist[cur.first][cur.second] + 1; //이전보다 거리 +1
-            Q.push({nx, ny}); //큐에 현재 위치 푸쉬
+            Q.push({nx, ny});
         }
     }
     cout << dist[n-1][m-1];
