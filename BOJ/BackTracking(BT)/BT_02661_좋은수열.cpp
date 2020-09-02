@@ -11,7 +11,6 @@
 using namespace std;
 
 //https://www.acmicpc.net/problem/1629 좋은 수열
-//풀어보니 쉬우나 처음부터 풀기는 쉽지않음
 
 int n;
 string seq;
