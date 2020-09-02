@@ -6,6 +6,7 @@
 ![imge](https://img.shields.io/badge/Tools-Xcode-red)
 
 - 알고리즘 종류별로 정리를 해두었습니다.
+- 기타 알고리즘은 ETC에 분류했습니다.
 - 아래 링크를 누르면 코드를 볼 수 있습니다.😄
 
 # Classification:pencil2:
@@ -15,6 +16,8 @@
 - [Breadth First Search(BFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BreadthFirstSearch(BFS))
 - [Depth First Search(DFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DepthFirstSearch(DFS))
 - [Back Tracking(BT)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BackTracking(BT))
+- [BruteForce(BF)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BruteForce(BF))
 - [Simulation(S)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Simulation(S))
-
+- [Greedy(G)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Greedy(G))
+- [Math(M)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Math(M))
 - [ETC](https://github.com/msmn1729/Algorithm/tree/master/BOJ/ETC)
