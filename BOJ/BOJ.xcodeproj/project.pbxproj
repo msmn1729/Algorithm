@@ -30,7 +30,7 @@
 		E859B70624FFAB8200895C7D /* ETC_11650_좌표 정렬하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6C624FFAB8100895C7D /* ETC_11650_좌표 정렬하기.cpp */; };
 		E859B70724FFAB8200895C7D /* ETC_16171_나는 친구가 적다 (Small).cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6C724FFAB8100895C7D /* ETC_16171_나는 친구가 적다 (Small).cpp */; };
 		E859B70824FFAB8200895C7D /* ETC_15595_정답 비율 계산하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6C824FFAB8100895C7D /* ETC_15595_정답 비율 계산하기.cpp */; };
-		E859B70924FFAB8200895C7D /* 05430.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6C924FFAB8100895C7D /* 05430.cpp */; };
+		E859B70924FFAB8200895C7D /* ETC_05430_AC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6C924FFAB8100895C7D /* ETC_05430_AC.cpp */; };
 		E859B70A24FFAB8200895C7D /* ETC_13300_방 배정.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6CA24FFAB8100895C7D /* ETC_13300_방 배정.cpp */; };
 		E859B70B24FFAB8200895C7D /* ETC_07510_고급 수학.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6CB24FFAB8100895C7D /* ETC_07510_고급 수학.cpp */; };
 		E859B70C24FFAB8200895C7D /* 01874.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E859B6CC24FFAB8100895C7D /* 01874.cpp */; };
@@ -142,7 +142,7 @@
 		E859B6C624FFAB8100895C7D /* ETC_11650_좌표 정렬하기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_11650_좌표 정렬하기.cpp"; sourceTree = "<group>"; };
 		E859B6C724FFAB8100895C7D /* ETC_16171_나는 친구가 적다 (Small).cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_16171_나는 친구가 적다 (Small).cpp"; sourceTree = "<group>"; };
 		E859B6C824FFAB8100895C7D /* ETC_15595_정답 비율 계산하기.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_15595_정답 비율 계산하기.cpp"; sourceTree = "<group>"; };
-		E859B6C924FFAB8100895C7D /* 05430.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 05430.cpp; sourceTree = "<group>"; };
+		E859B6C924FFAB8100895C7D /* ETC_05430_AC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ETC_05430_AC.cpp; sourceTree = "<group>"; };
 		E859B6CA24FFAB8100895C7D /* ETC_13300_방 배정.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_13300_방 배정.cpp"; sourceTree = "<group>"; };
 		E859B6CB24FFAB8100895C7D /* ETC_07510_고급 수학.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_07510_고급 수학.cpp"; sourceTree = "<group>"; };
 		E859B6CC24FFAB8100895C7D /* 01874.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 01874.cpp; sourceTree = "<group>"; };
@@ -276,7 +276,7 @@
 				E859B6C624FFAB8100895C7D /* ETC_11650_좌표 정렬하기.cpp */,
 				E859B6C724FFAB8100895C7D /* ETC_16171_나는 친구가 적다 (Small).cpp */,
 				E859B6C824FFAB8100895C7D /* ETC_15595_정답 비율 계산하기.cpp */,
-				E859B6C924FFAB8100895C7D /* 05430.cpp */,
+				E859B6C924FFAB8100895C7D /* ETC_05430_AC.cpp */,
 				E859B6CA24FFAB8100895C7D /* ETC_13300_방 배정.cpp */,
 				E859B6CB24FFAB8100895C7D /* ETC_07510_고급 수학.cpp */,
 				E859B6CC24FFAB8100895C7D /* 01874.cpp */,
@@ -550,7 +550,7 @@
 				E859B6F424FFAB8200895C7D /* ETC_03009_네 번째 점.cpp in Sources */,
 				E859B71E24FFAB8200895C7D /* 01920.cpp in Sources */,
 				E8DB390624FE569900A27AC6 /* BFS_02206_벽 부수고 이동하기.cpp in Sources */,
-				E859B70924FFAB8200895C7D /* 05430.cpp in Sources */,
+				E859B70924FFAB8200895C7D /* ETC_05430_AC.cpp in Sources */,
 				E89F295924EA94CC0000EDAB /* BT_02580_스도쿠.cpp in Sources */,
 				E8DB38D324F3A38C00A27AC6 /* BT_15656_N과 M (7).cpp in Sources */,
 				E859B71424FFAB8200895C7D /* 07576.cpp in Sources */,
