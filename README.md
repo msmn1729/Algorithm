@@ -6,7 +6,7 @@
 ![imge](https://img.shields.io/badge/Language-c++-yellow)
 ![imge](https://img.shields.io/badge/Tools-Xcode-red)
 
- C++로 알고리즘 문제 풀기! :dart:  
+ C++로 알고리즘 문제 풀기!
  
  
 # Classification:pencil2:
