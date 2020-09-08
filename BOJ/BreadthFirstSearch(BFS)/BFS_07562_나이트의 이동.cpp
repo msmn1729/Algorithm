@@ -16,7 +16,6 @@ using namespace std;
 
 //https://www.acmicpc.net/problem/7562 나이트의 이동
 
-int board[301][301] = {};
 int dist[301][301] = {};
 int dx[8] = {-2, -2, -1, -1, 1, 1, 2, 2};
 int dy[8] = {-1, 1, -2, 2, -2, 2, -1, 1};
