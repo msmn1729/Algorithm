@@ -64,12 +64,12 @@ int main(void)
             cout << dist[x][y][z];
             return 0;
         }
-        for(int div=0; div<end_idx; div++)
+        for(int dir=0; dir<end_idx; dir++)
         {
-            int nx = x + dx[div];
-            int ny = y + dy[div];
+            int nx = x + dx[dir];
+            int ny = y + dy[dir];
             int nz = z;
-            if(div >= 4) nz++; //말처럼 이동하는 경우 카운트 증가
+            if(dir >= 4) nz++; //말처럼 이동하는 경우 카운트 증가
             if(nx<0 || ny<0 || nx>=r || ny>=c) continue;
             if(dist[nx][ny][nz] || board[nx][ny]) continue; //방문했었거나 벽이면 패스
             dist[nx][ny][nz] = dist[x][y][z] + 1;
