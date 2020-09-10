@@ -44,7 +44,7 @@ int main(void)
     int mx = -2e9;
     for(i=1; i<=r; i++)
     {
-        for(j=0; j<=c; j++)
+        for(j=1; j<=c; j++)
         {
             if(board[i][j])
             {
