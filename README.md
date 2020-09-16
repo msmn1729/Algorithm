@@ -12,12 +12,20 @@
 # Classification:pencil2:
 
 ### Baekjoon Online Judge(BOJ)
-- [Dynamic Programming(DP)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DynamicProgramming(DP))
-- [Breadth First Search(BFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BreadthFirstSearch(BFS))
-- [Depth First Search(DFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DepthFirstSearch(DFS))
-- [Back Tracking(BT)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BackTracking(BT))
-- [Brute Force(BF)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BruteForce(BF))
-- [Simulation(S)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Simulation(S))
-- [Greedy(G)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Greedy(G))
-- [Math(M)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Math(M))
+- [Dynamic Programming(DP)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DynamicProgramming(DP) )
+
+- [Breadth First Search(BFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BreadthFirstSearch(BFS) )
+
+- [Depth First Search(DFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DepthFirstSearch(DFS) )
+
+- [Back Tracking(BT)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BackTracking(BT) )
+
+- [Brute Force(BF)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BruteForce(BF) )
+
+- [Simulation(S)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Simulation(S) )
+
+- [Greedy(G)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Greedy(G) )
+
+- [Math(M)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Math(M) )
+
 - [ETC](https://github.com/msmn1729/Algorithm/tree/master/BOJ/ETC)
