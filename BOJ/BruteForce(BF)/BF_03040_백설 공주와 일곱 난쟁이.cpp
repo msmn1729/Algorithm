@@ -16,7 +16,7 @@
 
 using namespace std;
 
-//https://www.acmicpc.net/problem/3040 백성 공주와 일곱 난쟁이
+//https://www.acmicpc.net/problem/3040 백설 공주와 일곱 난쟁이
 
 int main(void)
 {
@@ -24,38 +24,27 @@ int main(void)
     cin.tie(0);
     cout.tie(0);
     
-    int in;
+    int in, sum = 0;
     vector<int> v;
     for(int i=0; i<9; i++)
     {
         cin >> in;
         v.push_back(in);
+        sum += in;
     }
-    vector<int> vc(9);
-    for(int i=2; i<9; i++)
+    for(int i=0; i<9; i++)
     {
-        vc[i] = 1;
-    }
-    do
-    {
-        int sum = 0;
-        for(int i=0; i<9; i++)
+        for(int j=i+1; j<9; j++)
         {
-            if(vc[i])
+            if(sum - v[i] - v[j] == 100)
             {
-                sum += v[i];
-//                cout << v[i] << ' ';
+                for(int it : v)
+                {
+                    if(it == v[i] || it == v[j]) continue;
+                    cout << it << '\n';
+                }
             }
         }
-        if(sum == 100)
-        {
-            for(int i=0; i<9; i++)
-            {
-                if(vc[i]) cout << v[i] << '\n';
-            }
-            break;
-        }
-    } while(next_permutation(vc.begin(), vc.end()));
-
+    }
     return 0;
 }
