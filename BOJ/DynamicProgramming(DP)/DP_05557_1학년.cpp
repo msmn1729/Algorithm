@@ -39,24 +39,12 @@ int main(void)
     dp[0][v[0]] = 1;
     for(i=1; i<v.size(); i++) //1부터 시작
     {
-        int cur = v[i];
-        for(j=0; j<=20-cur; j++) //빼기
+        for(j=0; j<=20; j++)
         {
-            dp[i][j] += dp[i-1][j+cur];
-        }
-        for(j=cur; j<=20; j++) //더하기
-        {
-            dp[i][j] += dp[i-1][j-cur];
+            if(j + v[i] <= 20) dp[i][j+v[i]] += dp[i-1][j];
+            if(j - v[i] >= 0) dp[i][j-v[i]] += dp[i-1][j];
         }
     }
-//    for(i=0; i<v.size(); i++)
-//    {
-//        for(j=0; j<=20; j++)
-//        {
-//            cout << dp[i][j] << ' ';
-//        }
-//        cout << "\n\n\n";
-//    }
     cout << dp[v.size()-1][sum]; //인덱스이므로 -1
     
     return 0;
