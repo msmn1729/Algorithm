@@ -135,6 +135,7 @@
 		E8DB390024FCC31A00A27AC6 /* BFS_05427_불.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB38FF24FCC31A00A27AC6 /* BFS_05427_불.cpp */; };
 		E8DB390624FE569900A27AC6 /* BFS_02206_벽 부수고 이동하기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DB390524FE569900A27AC6 /* BFS_02206_벽 부수고 이동하기.cpp */; };
 		E8EEAA18252A016E00DDF171 /* M_04504_배수 찾기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8EEAA17252A016E00DDF171 /* M_04504_배수 찾기.cpp */; };
+		E8EEAA1B252B2D2000DDF171 /* ETC_10102_개표.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8EEAA1A252B2D2000DDF171 /* ETC_10102_개표.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -279,6 +280,7 @@
 		E8DB38FF24FCC31A00A27AC6 /* BFS_05427_불.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_05427_불.cpp"; sourceTree = "<group>"; };
 		E8DB390524FE569900A27AC6 /* BFS_02206_벽 부수고 이동하기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_02206_벽 부수고 이동하기.cpp"; sourceTree = "<group>"; };
 		E8EEAA17252A016E00DDF171 /* M_04504_배수 찾기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "M_04504_배수 찾기.cpp"; sourceTree = "<group>"; };
+		E8EEAA1A252B2D2000DDF171 /* ETC_10102_개표.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_10102_개표.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +337,7 @@
 				E859B6BB24FFAB8100895C7D /* ETC_11328_Strfry.cpp */,
 				E859B6BC24FFAB8100895C7D /* ETC_01181_단어 정렬.cpp */,
 				E859B6BD24FFAB8100895C7D /* ETC_10807_개수 세기.cpp */,
+				E8EEAA1A252B2D2000DDF171 /* ETC_10102_개표.cpp */,
 				E859B6BE24FFAB8100895C7D /* ETC_01952_달팽이2.cpp */,
 				E859B6C124FFAB8100895C7D /* ETC_02003_수들의 합.cpp */,
 				E859B6C324FFAB8100895C7D /* ETC_02444_별 찍기 - 7.cpp */,
@@ -590,6 +593,7 @@
 				E80F4C932514B76F00661CE0 /* DP_02407_조합.cpp in Sources */,
 				E80F4C962514B76F00661CE0 /* DP_12101_1, 2, 3 더하기 2.cpp in Sources */,
 				E859B70624FFAB8200895C7D /* ETC_11650_좌표 정렬하기.cpp in Sources */,
+				E8EEAA1B252B2D2000DDF171 /* ETC_10102_개표.cpp in Sources */,
 				E859B72824FFAB8200895C7D /* ETC_14581_팬들에게 둘러싸인 홍준.cpp in Sources */,
 				E8DB38D524F3A56400A27AC6 /* BT_15657_N과 M (8).cpp in Sources */,
 				E81D83DE24EF2A5B004081B2 /* S_15683_감시.cpp in Sources */,
