@@ -138,6 +138,7 @@
 		E8EEAA1B252B2D2000DDF171 /* ETC_10102_개표.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8EEAA1A252B2D2000DDF171 /* ETC_10102_개표.cpp */; };
 		E8EEAA442530A82B00DDF171 /* DP_09657_돌 게임 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8EEAA432530A82B00DDF171 /* DP_09657_돌 게임 3.cpp */; };
 		E8EEAA482530B5AF00DDF171 /* ETC_01074_Z.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8EEAA472530B5AF00DDF171 /* ETC_01074_Z.cpp */; };
+		E8EEAA4B2530BC6600DDF171 /* S_10811_바구니 뒤집기.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8EEAA4A2530BC6600DDF171 /* S_10811_바구니 뒤집기.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -285,6 +286,7 @@
 		E8EEAA1A252B2D2000DDF171 /* ETC_10102_개표.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_10102_개표.cpp"; sourceTree = "<group>"; };
 		E8EEAA432530A82B00DDF171 /* DP_09657_돌 게임 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_09657_돌 게임 3.cpp"; sourceTree = "<group>"; };
 		E8EEAA472530B5AF00DDF171 /* ETC_01074_Z.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ETC_01074_Z.cpp; sourceTree = "<group>"; };
+		E8EEAA4A2530BC6600DDF171 /* S_10811_바구니 뒤집기.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "S_10811_바구니 뒤집기.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +306,7 @@
 				E81D83DD24EF2A5B004081B2 /* S_15683_감시.cpp */,
 				E8DB38F924FA799600A27AC6 /* S_02636_치즈.cpp */,
 				E8DB38FB24FBD31100A27AC6 /* S_02638_치즈.cpp */,
+				E8EEAA4A2530BC6600DDF171 /* S_10811_바구니 뒤집기.cpp */,
 			);
 			path = "Simulation(S)";
 			sourceTree = "<group>";
@@ -703,6 +706,7 @@
 				E859B6FB24FFAB8200895C7D /* ETC_11328_Strfry.cpp in Sources */,
 				E859B7A52513707C00895C7D /* DFS_01926_그림.cpp in Sources */,
 				E859B72324FFAB8200895C7D /* ETC_01267_핸드폰 요금.cpp in Sources */,
+				E8EEAA4B2530BC6600DDF171 /* S_10811_바구니 뒤집기.cpp in Sources */,
 				E859B6F924FFAB8200895C7D /* ETC_01966_프린터 큐.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
