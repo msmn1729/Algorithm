@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//https://www.acmicpc.net/problem/9657 돌 게임 3
+
 int main()
 {
     int n;
