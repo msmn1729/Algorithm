@@ -20,7 +20,7 @@
 
 - [Back Tracking(BT)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BackTracking(BT) )
 
-- [Binary Search(BS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BinarySearch(BS)(BS) )
+- [Binary Search(BS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BinarySearch(BS) )
 
 - [Brute Force(BF)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BruteForce(BF) )
 
