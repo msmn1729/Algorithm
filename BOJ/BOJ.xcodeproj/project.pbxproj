@@ -122,6 +122,7 @@
 		E87431812540870500A0D71A /* M_10797_10부제.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E87431802540870500A0D71A /* M_10797_10부제.cpp */; };
 		E87E500C254EB85F00779E26 /* ETC_02522_별 찍기 - 12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E87E500B254EB85F00779E26 /* ETC_02522_별 찍기 - 12.cpp */; };
 		E87E500F254FCF7500779E26 /* ETC_10991_별 찍기 - 16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E87E500E254FCF7500779E26 /* ETC_10991_별 찍기 - 16.cpp */; };
+		E8873106258B31170081ADB1 /* M_02851_슈퍼 마리오.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8873105258B31170081ADB1 /* M_02851_슈퍼 마리오.cpp */; };
 		E89F295724EA947F0000EDAB /* BT_02661_좋은수열.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F295624EA947F0000EDAB /* BT_02661_좋은수열.cpp */; };
 		E89F295924EA94CC0000EDAB /* BT_02580_스도쿠.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F295824EA94CC0000EDAB /* BT_02580_스도쿠.cpp */; };
 		E89F297E24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89F297D24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp */; };
@@ -328,6 +329,7 @@
 		E87431802540870500A0D71A /* M_10797_10부제.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "M_10797_10부제.cpp"; sourceTree = "<group>"; };
 		E87E500B254EB85F00779E26 /* ETC_02522_별 찍기 - 12.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_02522_별 찍기 - 12.cpp"; sourceTree = "<group>"; };
 		E87E500E254FCF7500779E26 /* ETC_10991_별 찍기 - 16.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_10991_별 찍기 - 16.cpp"; sourceTree = "<group>"; };
+		E8873105258B31170081ADB1 /* M_02851_슈퍼 마리오.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "M_02851_슈퍼 마리오.cpp"; sourceTree = "<group>"; };
 		E89F295624EA947F0000EDAB /* BT_02661_좋은수열.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_02661_좋은수열.cpp"; sourceTree = "<group>"; };
 		E89F295824EA94CC0000EDAB /* BT_02580_스도쿠.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BT_02580_스도쿠.cpp"; sourceTree = "<group>"; };
 		E89F297D24ED3F720000EDAB /* BFS_01260_DFS와 BFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "BFS_01260_DFS와 BFS.cpp"; sourceTree = "<group>"; };
@@ -689,6 +691,7 @@
 				E8A8FAC325874CAC00CD8715 /* M_02875_대회 or 인턴.cpp */,
 				E8A8FAC62587BAAF00CD8715 /* M_02010_플러그.cpp */,
 				E8A8FAC925890B5B00CD8715 /* M_02693_N번째 큰 수.cpp */,
+				E8873105258B31170081ADB1 /* M_02851_슈퍼 마리오.cpp */,
 			);
 			path = "Math(M)";
 			sourceTree = "<group>";
@@ -854,6 +857,7 @@
 				E859B77C250929BE00895C7D /* BFS_05567_결혼식.cpp in Sources */,
 				E80F4CA22518A87800661CE0 /* DP_04811_알약.cpp in Sources */,
 				E8A8FA982581120C00CD8715 /* M_01373_2진수 8진수.cpp in Sources */,
+				E8873106258B31170081ADB1 /* M_02851_슈퍼 마리오.cpp in Sources */,
 				E8A8FA83257E839900CD8715 /* M_06679_싱기한 네자리 숫자.cpp in Sources */,
 				E8382F4C2521FA8B002900A9 /* G_01931_회의실배정.cpp in Sources */,
 				E859B7342500061100895C7D /* BFS_02178_미로 탐색.cpp in Sources */,
