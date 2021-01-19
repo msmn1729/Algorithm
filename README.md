@@ -18,6 +18,8 @@
 
 - [Depth First Search(DFS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DepthFirstSearch(DFS) )
 
+- [Data Structure(DS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DataStructure(DS) )
+
 - [Back Tracking(BT)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BackTracking(BT) )
 
 - [Binary Search(BS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BinarySearch(BS) )
