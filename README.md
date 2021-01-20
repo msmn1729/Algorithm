@@ -24,6 +24,8 @@
 
 - [Binary Search(BS)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BinarySearch(BS) )
 
+- [Graph Theory(GT)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/GraphTheory(GT) )
+
 - [Brute Force(BF)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/BruteForce(BF) )
 
 - [Simulation(S)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Simulation(S) )
