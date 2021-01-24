@@ -100,5 +100,21 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F194BF8-69B2-4908-84E0-A4C10DF768B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BreadthFirstSearch(BFS)/BFS_09205_&#x1106;&#x1162;&#x11a8;&#x110c;&#x116e; &#x1106;&#x1161;&#x1109;&#x1175;&#x1106;&#x1167;&#x11ab;&#x1109;&#x1165; &#x1100;&#x1165;&#x11af;&#x110b;&#x1165;&#x1100;&#x1161;&#x1100;&#x1175;.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
