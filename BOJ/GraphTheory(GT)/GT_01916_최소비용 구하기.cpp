@@ -31,7 +31,7 @@ void dijkstra(int start) {
     pq.push({0, start});
     
     while(pq.size()) {
-        int cur_dist = pq.top().first;
+        int cur_dist = -pq.top().first;
         int cur_node = pq.top().second;
         pq.pop();
 
@@ -44,7 +44,7 @@ void dijkstra(int start) {
             //경유해서 가는 경우가 더 최단 거리라면 갱신
             if(nxt_dist + cur_dist < dist[nxt_node]) {
                 dist[nxt_node] = nxt_dist + cur_dist;
-                pq.push({dist[nxt_node], nxt_node});
+                pq.push({-dist[nxt_node], nxt_node});
             }
         }
     }
