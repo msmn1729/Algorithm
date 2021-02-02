@@ -25,22 +25,29 @@ int main() {
     cin.tie(0);
     cout.tie(0);
     
-    int dist[100001] = {};
     int n, k;
+    int dist[100001] = {};
     cin >> n >> k;
     
-    queue<int> q;
-    q.push(n);
+    deque<int> dq;
+    dq.push_back(n);
     dist[n] = 1;
     
-    while(q.size()) {
-        int cur = q.front(); q.pop();
-        for(int nxt: {cur*2, cur-1, cur+1}) {
+    while(dq.size()) {
+        int cur_pos = dq.back();
+        dq.pop_back();
+        
+        for(int nxt: {cur_pos-1, cur_pos+1, cur_pos*2}) {
             if(nxt < 0 || nxt > 1e5) continue;
             if(dist[nxt]) continue;
-            dist[nxt] = dist[cur];
-            if(cur*2 != nxt) dist[nxt]++;
-            q.push(nxt);
+            if(nxt == cur_pos*2) {
+                dist[nxt] = dist[cur_pos] + 1;
+                dq.push_back(nxt);
+            }
+            else {
+                dist[nxt] = dist[cur_pos] + 1;
+                dq.push_front(nxt);
+            }
         }
     }
     cout << dist[k]-1;
