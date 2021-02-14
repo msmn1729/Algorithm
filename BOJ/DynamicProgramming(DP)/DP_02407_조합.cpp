@@ -11,57 +11,48 @@
 #include <cstring>
 #include <cmath>
 #include <set>
+#include <unordered_map>
 #include <bitset>
 #define ll long long
+#define INF 1e9
 
 using namespace std;
 
 //https://www.acmicpc.net/problem/2407 조합
 
-string stringAdd(string a, string b)
-{
+string strSum(string s1, string s2) {
+    string ret = "";
     int sum = 0;
-    string result;
-    while(a.size() || b.size() || sum)
-    {
-        if(a.size())
-        {
-            sum += a.back() - '0';
-            a.pop_back();
+    while(s1.size() || s2.size() || sum) {
+        if(s1.size()) {
+            sum += s1.back() - '0';
+            s1.pop_back();
         }
-        if(b.size())
-        {
-            sum += b.back() - '0';
-            b.pop_back();
+        if(s2.size()) {
+            sum += s2.back() - '0';
+            s2.pop_back();
         }
-        result.push_back(sum % 10 + '0');
+        ret += (sum % 10) + '0';
         sum /= 10;
     }
-    reverse(result.begin(), result.end());
-    return result;
+    reverse(ret.begin(), ret.end());
+    return ret;
 }
 
-int main(void)
-{
+int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
     
     string dp[101][101] = {};
+    for(int i=0; i<=100; i++) dp[i][0] = '1';
+    for(int i=1; i<=100; i++) {
+        for(int j=1; j<=i; j++) {
+            dp[i][j] =  strSum(dp[i-1][j-1], dp[i-1][j]);
+        }
+    }
     int n, m;
     cin >> n >> m;
-    
-    for(int i=0; i<=100; i++)
-    {
-        dp[i][0] = "1";
-        for(int j=1; j<=100; j++) dp[i][j] = "0";
-    }
-    
-    for(int i=1; i<=100; i++)
-    {
-        for(int j=1; j<=i; j++) dp[i][j] = stringAdd(dp[i-1][j-1], dp[i-1][j]);
-    }
-    
     cout << dp[n][m];
     
     return 0;
