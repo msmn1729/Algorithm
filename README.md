@@ -31,6 +31,8 @@
 
 - [Simulation(S)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Simulation(S) )
 
+- [String(STR)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/String(STR) )
+
 - [Greedy(G)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Greedy(G) )
 
 - [Math(M)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/Math(M) )
