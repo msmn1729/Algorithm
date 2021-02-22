@@ -35,6 +35,7 @@ int main() {
         string sub_str = "";
         for(int j=i; j<s.size(); j++) {
             sub_str += s[j];
+            str_set.insert(sub_str);
         }
     }
     cout << str_set.size();
