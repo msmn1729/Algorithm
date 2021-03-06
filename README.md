@@ -4,8 +4,7 @@
 ![imge](https://img.shields.io/badge/ProjectType-SingleStudy-green)  
 
 ![imge](https://img.shields.io/badge/Language-C++-ff69b4)
-![imge](https://img.shields.io/badge/Tools-Xcode-red)  
-
+![imge](https://img.shields.io/badge/Tools-Xcode-red)
 ![imge](https://img.shields.io/badge/Language-Python-blue)
 ![imge](https://img.shields.io/badge/Tools-PyCharm-brightgreen)
 
