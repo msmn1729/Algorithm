@@ -20,7 +20,7 @@
 
 using namespace std;
 
-//https://www.acmicpc.net/problem/10942 단어 암기
+//https://www.acmicpc.net/problem/18119 단어 암기
 
 int main() {
     ios::sync_with_stdio(0);
