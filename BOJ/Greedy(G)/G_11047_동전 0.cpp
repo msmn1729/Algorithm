@@ -1,19 +1,22 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cstring>
-#include <queue>
-#include <string>
-#include <map>
-#include <iomanip>
-#include <list>
-#include <stack>
-#include <cstring>
-#include <cmath>
-#include <set>
 #include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
+#include <iostream>
+#include <climits>
+#include <cstring>
+#include <iomanip>
 #include <bitset>
+#include <string>
+#include <vector>
+#include <cmath>
+#include <queue>
+#include <stack>
+#include <list>
+#include <map>
+#include <set>
+
 #define ll long long
+#define INF 1e9
 
 using namespace std;
 
@@ -23,16 +26,17 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-
-    int n, k, ans = 0;
+    
+    int n, k;
+    int ar[11] = {};
+    
     cin >> n >> k;
-    vector<int> v(n);
-    for(int i=0; i<n; i++) cin >> v[i];
-
-    for(int i=(int)v.size()-1; i>=0 && k; i--) {
-        if(k < v[i]) continue;
-        ans += k/v[i];
-        k -= v[i]*ans;
+    for(int i=0; i<n; i++) cin >> ar[i];
+    
+    int ans = 0;
+    for(int i=n-1; i>=0; i--) {
+        ans += k / ar[i];
+        k %= ar[i];
     }
     cout << ans;
     
