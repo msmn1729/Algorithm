@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2419D5442625D1C000C71806 /* STR_09226_도깨비말.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2419D5432625D1C000C71806 /* STR_09226_도깨비말.cpp */; };
 		E80F4C872514B6D800661CE0 /* ETC_10989_수 정렬하기 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E80F4C862514B6D800661CE0 /* ETC_10989_수 정렬하기 3.cpp */; };
 		E80F4C922514B76F00661CE0 /* DP_01003_피보나치 함수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E80F4C8D2514B76F00661CE0 /* DP_01003_피보나치 함수.cpp */; };
 		E80F4C932514B76F00661CE0 /* DP_02407_조합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E80F4C8E2514B76F00661CE0 /* DP_02407_조합.cpp */; };
@@ -410,6 +411,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2419D5432625D1C000C71806 /* STR_09226_도깨비말.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "STR_09226_도깨비말.cpp"; sourceTree = "<group>"; };
 		E80F4C862514B6D800661CE0 /* ETC_10989_수 정렬하기 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_10989_수 정렬하기 3.cpp"; sourceTree = "<group>"; };
 		E80F4C8D2514B76F00661CE0 /* DP_01003_피보나치 함수.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_01003_피보나치 함수.cpp"; sourceTree = "<group>"; };
 		E80F4C8E2514B76F00661CE0 /* DP_02407_조합.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_02407_조합.cpp"; sourceTree = "<group>"; };
@@ -1044,6 +1046,7 @@
 				E8B9950B25FE750D0024CE48 /* STR_05052_전화번호 목록.cpp */,
 				E8B9950E25FE76E00024CE48 /* STR_05052_전화번호 목록(2).cpp */,
 				E8B9951125FE98290024CE48 /* STR_05052_전화번호 목록(3).cpp */,
+				2419D5432625D1C000C71806 /* STR_09226_도깨비말.cpp */,
 			);
 			path = "String(STR)";
 			sourceTree = "<group>";
@@ -1494,6 +1497,7 @@
 				E8382F6E25287B03002900A9 /* M_10539_수빈이와 수열.cpp in Sources */,
 				E83E262225B1EE6D00620C0F /* ETC_01927_최소 힙.cpp in Sources */,
 				E883B15125FCAF5400A0E797 /* M_01011_Fly me to the Alpha Centauri.cpp in Sources */,
+				2419D5442625D1C000C71806 /* STR_09226_도깨비말.cpp in Sources */,
 				E8ABDE4225C94183002F0B29 /* BFS_12851_숨바꼭질 2.cpp in Sources */,
 				E859B7762507E5C000895C7D /* BFS_01600_말이 되고픈 원숭이.cpp in Sources */,
 				E8BCC995255ECB4A0051FFB8 /* G_02812_크게 만들기.cpp in Sources */,
