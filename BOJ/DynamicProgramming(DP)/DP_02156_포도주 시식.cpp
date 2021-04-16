@@ -26,7 +26,7 @@ int main() {
     cout.tie(0);
     
     int n;
-    int dp[10001][3] = {};
+    int dp[10001] = {};
     int ar[10001] = {};
     cin >> n;
     
@@ -34,16 +34,14 @@ int main() {
         cin >> ar[i];
     }
 
-    int ans = 0;
-    ans = dp[1][1] = ar[1];
-    for(int i=2; i<=n; i++) {
-        dp[i][1] = max(dp[i-2][1], dp[i-2][2]) + ar[i];
-        dp[i][2] = dp[i-1][1] + ar[i];
-        dp[i][1] = max(dp[i][1], dp[i-1][1]);
-        dp[i][2] = max(dp[i][2], dp[i-1][2]);
-        ans = max(ans, max(dp[i][1], dp[i][2]));
+    dp[1] = ar[1];
+    dp[2] = ar[1] + ar[2];
+    for(int i=3; i<=n; i++) {
+        dp[i] = dp[i-2] + ar[i];
+        dp[i] = max(dp[i], dp[i-3] + ar[i-1] + ar[i]);
+        dp[i] = max(dp[i], dp[i-1]);
     }
-    cout << ans;
+    cout << dp[n];
     
     return 0;
 }
