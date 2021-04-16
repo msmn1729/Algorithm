@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2419D5442625D1C000C71806 /* STR_09226_도깨비말.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2419D5432625D1C000C71806 /* STR_09226_도깨비말.cpp */; };
+		24C950DE2629DD440008B9BA /* DP_02156_포도주 시식.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24C950DD2629DD440008B9BA /* DP_02156_포도주 시식.cpp */; };
 		E80F4C872514B6D800661CE0 /* ETC_10989_수 정렬하기 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E80F4C862514B6D800661CE0 /* ETC_10989_수 정렬하기 3.cpp */; };
 		E80F4C922514B76F00661CE0 /* DP_01003_피보나치 함수.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E80F4C8D2514B76F00661CE0 /* DP_01003_피보나치 함수.cpp */; };
 		E80F4C932514B76F00661CE0 /* DP_02407_조합.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E80F4C8E2514B76F00661CE0 /* DP_02407_조합.cpp */; };
@@ -412,6 +413,7 @@
 
 /* Begin PBXFileReference section */
 		2419D5432625D1C000C71806 /* STR_09226_도깨비말.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "STR_09226_도깨비말.cpp"; sourceTree = "<group>"; };
+		24C950DD2629DD440008B9BA /* DP_02156_포도주 시식.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_02156_포도주 시식.cpp"; sourceTree = "<group>"; };
 		E80F4C862514B6D800661CE0 /* ETC_10989_수 정렬하기 3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "ETC_10989_수 정렬하기 3.cpp"; sourceTree = "<group>"; };
 		E80F4C8D2514B76F00661CE0 /* DP_01003_피보나치 함수.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_01003_피보나치 함수.cpp"; sourceTree = "<group>"; };
 		E80F4C8E2514B76F00661CE0 /* DP_02407_조합.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "DP_02407_조합.cpp"; sourceTree = "<group>"; };
@@ -1219,6 +1221,7 @@
 				E8B9952B25FF92630024CE48 /* DP_02579_계단 오르기(4).cpp */,
 				E8B9954325FFD8690024CE48 /* DP_11054_가장 긴 바이토닉 부분 수열.cpp */,
 				E8B9955226046FF30024CE48 /* DP_01904_01타일.cpp */,
+				24C950DD2629DD440008B9BA /* DP_02156_포도주 시식.cpp */,
 			);
 			path = "DynamicProgramming(DP)";
 			sourceTree = "<group>";
@@ -1511,6 +1514,7 @@
 				E869169725D91A7700184AFE /* GT_01504_특정한 최단 경로.cpp in Sources */,
 				E883B17725FD091D00A0E797 /* M_01934_최소공배수(2).cpp in Sources */,
 				E8B9953825FFBB4F0024CE48 /* BF_02231_분해합.cpp in Sources */,
+				24C950DE2629DD440008B9BA /* DP_02156_포도주 시식.cpp in Sources */,
 				E87E500C254EB85F00779E26 /* ETC_02522_별 찍기 - 12.cpp in Sources */,
 				E84AD5B7254D6FB800EB7797 /* DP_07570_줄 세우기.cpp in Sources */,
 				E859B780250A356700895C7D /* DFS_01743_음식물 피하기.cpp in Sources */,
