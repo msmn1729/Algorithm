@@ -8,13 +8,14 @@ int alpa[30];
 int n, k, ans;
 
 void go(int start, int depth) {
-    if(depth == k-5) {
+    if(depth == k) {
         int cnt = 0;
         for(int i=0; i<n; i++) {
             int flag = 0;
             for(int j=0; j<26; j++) {
                 if(ar[i][j] == 1 && alpa[j] == 0) {
                     flag = 1;
+                    break;
                 }
             }
             if(!flag) cnt++;
@@ -51,7 +52,7 @@ int main() {
         s = s.substr(4, s.size()-8);
         for(char c : s) ar[i][c - 'a'] = 1;
     }
-    go(0, 0);
+    go(0, 5);
     cout << ans;
     
     return 0;
