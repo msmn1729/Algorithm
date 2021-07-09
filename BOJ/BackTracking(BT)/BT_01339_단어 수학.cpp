@@ -11,7 +11,7 @@ int ans;
 vector<string> info;
 vector<char> alpa;
 
-void go(int start, int depth) {
+void go(int depth) {
     if(depth == alpa.size()) {
         int sum = 0;
         for(string s : info) {
@@ -33,7 +33,7 @@ void go(int start, int depth) {
         
         visited[i] = 1;
         alpa_num[idx] = i;
-        go(i+1, depth+1);
+        go(depth+1);
         visited[i] = 0;
         alpa_num[idx] = 0;
     }
@@ -56,7 +56,7 @@ int main() {
             alpa.push_back(c); // 중복제거된 알파벳 삽입
         }
     }
-    go(0, 0);
+    go(0);
     cout << ans;
    
     return 0;
