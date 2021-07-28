@@ -14,7 +14,7 @@
 
 # Classification:pencil2:
 
-### [Baekjoon Online Judge(BOJ)](https://www.acmicpc.net/)
+### Baekjoon Online Judge(BOJ)
 
 - [Dynamic Programming(DP)](https://github.com/msmn1729/Algorithm/tree/master/BOJ/DynamicProgramming(DP) )
 
