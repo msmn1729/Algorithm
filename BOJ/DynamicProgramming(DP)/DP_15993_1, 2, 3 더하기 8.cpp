@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
-// https://www.acmicpc.net/problem/15992 1, 2, 3 더하기 8
+// https://www.acmicpc.net/problem/15993 1, 2, 3 더하기 8
 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
