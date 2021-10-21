@@ -1,4 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
+#include <queue>
+#include <algorithm>
+#include <set>
+#include <cstring>
 #define ll long long
 using namespace std;
 
@@ -13,7 +18,7 @@ int visit[30][30];
 info ans, start;
 string ar[30];
 vector<pair<int, int> > cand;
-string ansCmd;
+string ansCmd = "";
 
 void go(info cur, int cnt, string cmd) {
     if(cnt == cand.size()) {
@@ -60,7 +65,7 @@ int main() {
         for(int i=0; i<4; i++) {
             start = {x, y, i};
             visit[x][y] = 1;
-            go({0, 0, i}, 1, "");
+            go(start, 1, "");
             memset(visit, 0, sizeof(visit));
         }
     }
