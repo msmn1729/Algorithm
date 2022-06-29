@@ -3,19 +3,13 @@ using namespace std;
 
 string solution(string s) {
     string answer = "";
-    
-    stringstream ss;
-    string word;
-    ss.str(s);
-    
-    while(ss >> word) {        
-        for(char& c : word) {
-            if(isupper(c)) c = tolower(c);
-        }
-        if(islower(word[0])) word[0] = toupper(word[0]);
-        answer += word + " ";
+    if(islower(s[0])) s[0] = toupper(s[0]);
+
+    for(int i=1; i<s.length(); i++) {
+        if(s[i-1] == ' ') s[i] = toupper(s[i]);
+        else s[i] = tolower(s[i]);
     }
-    if(answer.back() == ' ') answer.pop_back();
+    answer = s;
     
     return answer;
 }
