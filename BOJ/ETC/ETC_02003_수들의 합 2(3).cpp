@@ -21,9 +21,8 @@ int main() {
     
     int st = 0, ed = 0;
     int sum = 0, ans = 0;
-    while(1) {
+    while(ed <= n) {
         if(sum < m) {
-            if(ed == n) break; // 부분합이 더이상 커질 수 없는 경우
             sum += v[ed++];
         }
         else {
