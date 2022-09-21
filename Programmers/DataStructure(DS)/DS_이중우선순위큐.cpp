@@ -51,7 +51,6 @@ vector<int> solution(vector<string> operations) {
     answer.push_back(pq_desc.top());
     answer.push_back(pq_asc.top());
     
-    
     return answer;
 }
 
