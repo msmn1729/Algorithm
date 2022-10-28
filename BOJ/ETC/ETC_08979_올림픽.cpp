@@ -46,17 +46,20 @@ int main() {
     }
     sort(v.begin(), v.end(), cmp);
     
-    int ans = 0;
+    int rank = 0;
     for(int i=0; i<n; i++) {
         if(k == v[i].num) {
-            ans = i+1;
+            rank = i;
             break;
         }
     }
     
+    int ans = 1;
     for(int i=0; i<n; i++) {
-        if(v[i].num == k) continue;
-        if(v[k].gold == v[i].gold && v[k].silver == v[i].silver && v[k].bronze == v[i].bronze) ans--;
+        if(v[rank].gold == v[i].gold && v[rank].silver == v[i].silver && v[rank].bronze == v[i].bronze) {
+            ans = i+1;
+            break;
+        }
     }
     cout << ans;
 
