@@ -8,9 +8,6 @@
 ![imge](https://img.shields.io/badge/Language-Java-red)
 ![imge](https://img.shields.io/badge/Tools-IntelliJ-red)
 
-![imge](https://img.shields.io/badge/Language-Python-brightgreen)
-![imge](https://img.shields.io/badge/Tools-PyCharm-brightgreen)
-
 - 알고리즘 종류별로 정리를 해두었습니다.
 - 기타 알고리즘은 ETC에 분류했습니다.
 - 아래 링크를 누르면 코드를 볼 수 있습니다.😄
